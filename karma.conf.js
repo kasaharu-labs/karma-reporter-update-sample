@@ -19,8 +19,8 @@ module.exports = function (config) {
       dir: require('path').join(__dirname, './coverage/karma-reporter-update-sample'),
       subdir: '.',
       reporters: [
-        { type: 'html' },
-        { type: 'lcovonly' },
+        { type: 'html', subdir: 'html' },
+        { type: 'lcovonly', subdir: 'lcovonly' },
         { type: 'text-summary' },
       ]
     },

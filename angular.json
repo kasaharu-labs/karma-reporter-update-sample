@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "yarn"
+    "packageManager": "yarn",
+    "analytics": "56cae5f0-458e-43e2-9b92-00f41d8e7bce"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -126,6 +127,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "karma-reporter-update-sample"
 }
